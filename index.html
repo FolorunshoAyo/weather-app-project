@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Weather App Project</title>
+</head>
+<body>
+    <div class="container">
+        <div class="entries">
+            <form id="formEl" method="get">
+                <div class="form-group">
+                    <input type="text" placeholder="Enter City Name" id="inputEl">
+                    <button type="submit" class="submit-btn">Get Updates</button>
+                </div>
+            </form>
+        </div>
+        <div class="info-box">
+            <div class="main-info">
+            <div class="city_temperature_widget">
+                <h1 class="city_name">Ilishan</h1>
+                <p class="temperature">00&deg;C</p>
+            </div>
+            <div class="state_of_weather">
+                <img src="images/default.png" alt="weather_icon" id="state_image">
+                <p class="description">Description</p>
+            </div>
+        </div>
+            <div class="weather_description_container">
+                <p class="weather_description">broken clouds</p>
+            </div>
+        </div>
+    </div>
+    <script src="jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

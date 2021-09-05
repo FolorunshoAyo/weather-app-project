@@ -1,0 +1,113 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b0affb;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin: 1em auto;
+    width: 70%;
+}
+
+.entries{
+    background-color: #fe8080;
+    border-radius: 1em;
+    padding: 0.3em;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form-group{
+    display: flex;
+}
+
+.form-group input{
+    width: 75%;
+    padding: 0.8em;
+    border-radius: 1em 0 0 1em;
+    border: none;
+    font-size: 1.3em;
+    margin-right: 4px;
+    background-color: #f2f2f2;
+}
+
+.form-group input:focus{
+    outline: none;
+}
+
+.form-group button{
+    background-color: #ebe7e3;
+    border: none;
+    border-radius: 0 1em 1em 0;
+    padding: 0 1em;
+    width: 25%;
+    cursor: pointer;
+}
+
+.form-group button:hover{
+    color: rgb(163, 126, 126);
+}
+
+.info-box{
+    background-color: #9eed9e;
+    border-radius: 1em;
+    padding: 0.4em 0;
+    width: 400px;
+    margin: 3em auto;
+}
+
+.main-info{
+    display: flex;
+    padding: 0.9em 0.3em;
+}
+
+.city_temperature_widget{
+    width: 60%;
+    padding: 0 0.4em;
+    overflow-x: hidden;
+}
+
+.city_name{
+    margin: 0;
+    font-size: 3em;
+}
+
+.temperature{
+    margin: 0;
+    font-size: 5em;
+}
+
+.state_of_weather{
+    width: 40%;
+    text-align: center;
+}
+.state_of_weather img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.description{
+    font-size: 1.5em;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.weather_description_container{
+    background-color: #bff3cc;
+    padding: 0.5em 0;
+    border-radius: 0 0 0.6em 0.6em;
+}
+.weather_description_container p{
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
